@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="demo-maven-deploy-to-chFlow" doc:id="f3d06895-525e-4fc0-a34e-e68af25ae90b" >
 		<http:listener doc:name="Listener" doc:id="6b05b66b-c387-4da8-a8cf-ca80bf0a1e9c" path="demo-maven-deploy-to-CH" config-ref="HTTP_Listener_config"/>
-		<logger level="INFO" doc:name="Logger" doc:id="0bc299d2-240a-4ce5-8be2-d91e2289a202" message="Log demo-maven-deploy-to-CH 2 ******"/>
+		<logger level="INFO" doc:name="Logger" doc:id="0bc299d2-240a-4ce5-8be2-d91e2289a202" message="Log demo-maven-deploy-to-CH 2 3 ******"/>
 	</flow>
 </mule>
